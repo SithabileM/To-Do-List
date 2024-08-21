@@ -1,0 +1,18 @@
+{
+  "tasks" : [
+    {"title": "tasks 1", "items":[ {"task":"task 1 description","status":"pending"}, {"task":"another task","status":"completed"},{"task":"yet another one","status":"pending"}], 
+      "date": "2018-01-01",
+    "id": 1},
+
+  {"title": "tasks 2", "items":[ {"task":"task 2 description","status":"pending"},
+{"task":"another task","status":"completed"},{"task":"last one", "status":"completed"}], 
+    "date" : "2018-01-02",
+  "id": 2},
+    
+  {"title":"tommorow's daily plan","items":[
+{"task":"go to the gym","status":"pending"},{"task":"make a healthy meal","status":"pending"},
+{"task":"sleep early", "status":"pending"}],
+    "date":"2020-08-03",
+    "id": 3}
+  ]
+}
