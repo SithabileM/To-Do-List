@@ -8,15 +8,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 	
 	<React.StrictMode>
 		<Router>
-			<div className="app">
-			<App />
 				<div className="content">
 					<Routes>
-						<Route exact path="/" element={App}/>
-						<Route exact path="/title" element={ListName}/>
+						<Route exact path="/" element={<App/>}/>
+						<Route exact path="/title" element={<ListName/>}/>
 					</Routes>
 				</div>
-			</div>
 		</Router>
 		
 	</React.StrictMode>
