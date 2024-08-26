@@ -15,8 +15,6 @@ jobs:
       - name: Build and deploy to github pages
         run: |
           npm run build
-          git config --local user.email "33946591-sithabilemonde9@users.noreply.replit.com"
-          git config --local user.name "SithabileM"
           git checkout -b gh-pages
           git add .
           git add dist/*
